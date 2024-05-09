@@ -1,0 +1,6 @@
+#ifndef PG3401_V24_38_EXTRACT_INCREMENTER_FROM_WHILE_LOOP_H
+#define PG3401_V24_38_EXTRACT_INCREMENTER_FROM_WHILE_LOOP_H
+
+char* ExtractIncrementerFromWhile(char *pStartOfWhile, char *pszIncrementer);
+
+#endif //PG3401_V24_38_EXTRACT_INCREMENTER_FROM_WHILE_LOOP_H

@@ -1,0 +1,6 @@
+#ifndef PG3401_V24_38_EXTRACT_BODY_FROM_WHILE_LOOP_H
+#define PG3401_V24_38_EXTRACT_BODY_FROM_WHILE_LOOP_H
+
+char *ExtractBodyFromWhile(char *pStartOfWhile, int iSizeOfIncrementer);
+
+#endif //PG3401_V24_38_EXTRACT_BODY_FROM_WHILE_LOOP_H

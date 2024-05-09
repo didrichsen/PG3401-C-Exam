@@ -1,0 +1,6 @@
+#ifndef PG3401_V24_38_EXTRACT_INIT_FROM_WHILE_LOOP_H
+#define PG3401_V24_38_EXTRACT_INIT_FROM_WHILE_LOOP_H
+
+char* ExtractInitFromWhile(char* pStartOfWhile, int* iBytesOffset);
+
+#endif //PG3401_V24_38_EXTRACT_INIT_FROM_WHILE_LOOP_H

@@ -1,0 +1,8 @@
+#ifndef PG3401_V24_38_EKSAMEN_V24_OPPGAVE4_CLEAN_UP_H
+#define PG3401_V24_38_EKSAMEN_V24_OPPGAVE4_CLEAN_UP_H
+
+#include "./oppgave4_struct.h"
+
+void CleanUp(THREAD_DATA *sThreadData);
+
+#endif //PG3401_V24_38_EKSAMEN_V24_OPPGAVE4_CLEAN_UP_H
