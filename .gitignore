@@ -1,1 +1,102 @@
-.idea
+# Compiled object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+
+# Shared objects (shared libraries)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod*
+
+# Memory dump files
+*.stackdump
+*.core
+*.coredump
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Other
+*.tags
+*.ctags
+*.cscope
+*.d
+
+# Backup files
+*~
+*.orig
+*.bak
+*.old
+*.tmp
+
+# Coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Miscellaneous
+*.class
+*.psd
+*.pid
+*.seed
+*.pid.lock
+*.cover
+
+# Directories
+bin/
+obj/
+libs/
+lib/
+
+# Ignore the output of make and cmake
+Makefile
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Exclude specific test files
+*_test.c
+*_test.cpp
+
+# Ignore MacOS specific files
+.DS_Store
