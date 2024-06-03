@@ -2,18 +2,27 @@
 
 ## How to Run
 
-Tasks are written for linux/unix-like system. Navigate to folder and type "make"
-to compile task and run. 
+Tasks are written for operating system linux.
 
+Navigate to folder and type "make" to compile task and run. 
+
+Clone repo:
 ```bash
 git clone <repository_url>
 ```
+Cd into task folder:
 ```bash
 cd oppgave_2
 ```
+Create folder for object files:
+```bash
+mkdir obj
+```
+Run makefile:
 ```bash
 make
 ```
+Run task:
 ```bash
 ./oppgave_2
 ```
